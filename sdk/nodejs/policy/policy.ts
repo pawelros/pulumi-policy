@@ -70,7 +70,7 @@ export type Rule = (type: string, properties: any) => void;
  * ```
  *
  * @param filter is a type guard, verifying the provided value is an instance of the
- * type the resource the policy whishes to inspect. Typically Pulumi libraries have
+ * type the resource the policy wishes to inspect. Typically Pulumi libraries have
  * a static method `isInstance()` defined on resource types that can be used for
  * this purpose.
  * @param rule provides the implementation to check the provided resource state for

@@ -44,7 +44,7 @@ import { version } from "./version";
 let serving = false;
 
 /**
- * Starts the gRPC server to communication with the Pulumi CLI client for analyzing resources.
+ * Starts the gRPC server to communicate with the Pulumi CLI client for analyzing resources.
  *
  * Only one gRPC server can be running at a time, and the port the server is running on will
  * be written to STDOUT.
