@@ -47,7 +47,8 @@ export class PolicyPack {
  * Otherwise, it is assumed the resource has been successfully verified.
  *
  * For example:
- * ```
+
+ * ```typescript
  * const r = (type: string, properties: any) => {
  *     console.log(`Inspecting resource with type ${type} with properties:\n${JSON.stringify(properties)}`);
  * };
