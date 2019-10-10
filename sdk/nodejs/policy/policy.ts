@@ -60,7 +60,7 @@ export type Rule = (type: string, properties: any) => void;
  * typedRule provides a convenient shorthand for creating new rules that are only
  * executed against resources of a specific type. For example:
  *
- * ```
+ * ```typescript
  * import * as assert from "assert";
  * import * as aws as "@pulumi/aws";
  *
